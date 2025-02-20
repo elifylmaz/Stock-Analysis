@@ -1,7 +1,7 @@
-```markdown
+
 # Hisse Senetlerinin Sektörel Benzerlik Analizi ve Sınıflandırma Modeli Geliştirilmesi
 
-![Proje Şeması](https://via.placeholder.com/800x400?text=Sector+Similarity+Analysis+Flow) <!-- Proje şeması eklenebilir -->
+**Milli Teknoloji Hamlesi** kapsamında düzenlenen **Yapay Zeka Uzmanlık Programı** dahilinde, **Veri Yoğun Uygulamaları** dersi kapsamında **Dr. İsmail Güzel** mentörlüğünde geliştirilmiştir.
 
 ## 📌 Proje Amacı
 Bu proje, hisse senetlerinin zaman serisi davranışlarını analiz ederek sektörel benzerliklerini tespit etmeyi ve makine öğrenmesi modelleriyle sınıflandırmayı hedefler. Finans, Sağlık, Teknoloji ve Gayrimenkul (Real Estate) sektörlerine odaklanarak yatırım stratejilerine veriye dayalı destek sağlar.
@@ -47,28 +47,6 @@ Bu proje, hisse senetlerinin zaman serisi davranışlarını analiz ederek sekt�
 - **Hiperparametre Ayarı:** `GridSearchCV` ile en iyi parametre kombinasyonlarının belirlenmesi
 - **Sınıf Dengesizliği Çözümü:** SMOTE ile her sınıftan 1000 örnek oluşturma
 - **Çapraz Doğrulama:** 10 katmanlı Stratified K-Fold
-
----
-
-## 🚀 Kurulum ve Çalıştırma
-### Gereksinimler
-```bash
-pip install yfinance pandas numpy scipy tsfresh scikit-learn catboost xgboost imbalanced-learn
-```
-
-### Adım Adım Çalıştırma
-1. **Veri Toplama:**
-   ```python
-   python src/data_collection.py  # Sektör verilerini çeker ve CSV'ye kaydeder
-   ```
-2. **Özellik Çıkarımı:**
-   ```python
-   python src/feature_extraction.py  # Zaman serisi özelliklerini çıkarır
-   ```
-3. **Model Eğitimi:**
-   ```python
-   python src/train_model.py --model CatBoost  # En iyi performanslı model
-   ```
 
 ---
 
