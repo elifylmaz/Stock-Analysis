@@ -15,11 +15,7 @@ Bu proje, hisse senetlerinin zaman serisi davranışlarını analiz ederek sekt�
   - Finans, Sağlık, Teknoloji (Temel sektörler)
   - Gayrimenkul (Real Estate) (Ek analiz için)
 - **Zaman Aralığı:** 1 Ocak 2005'ten itibaren tarihsel veriler
-- **Veri Yapısı Örneği:
-  ```csv
-  Symbol,Company Name,Market Cap,% Change,Volume,Revenue
-  AAPL,Apple Inc.,2.5T,+1.2%,100M,365B
-  ```
+
 
 ### Veri Ön İşleme Adımları
 1. **Eksik Veri Yönetimi:** 
@@ -51,9 +47,6 @@ Bu proje, hisse senetlerinin zaman serisi davranışlarını analiz ederek sekt�
 ---
 
 ## 📈 Analiz ve Görselleştirmeler
-### Performans Karşılaştırması
-![Model Performans Grafiği](https://via.placeholder.com/600x400?text=Model+Comparison+Metrics)
-
 ### Real Estate Sektör Benzerlik Analizi
 | Hisse Senedi | Gerçek Sektör | En Yüksek Benzerlik | Olasılık (%) |
 |--------------|---------------|----------------------|-------------|
